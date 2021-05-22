@@ -13,3 +13,6 @@ scipy
 wcwidth==0.1.7 
 webencodings==0.5.1
 Werkzeug==1.0.1
+uvicorn
+uvloop
+httptools
