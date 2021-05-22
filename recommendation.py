@@ -4,7 +4,7 @@ from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 def get_data():
-    tourd=pd.read_excel("final_states.xlsx",index_col=0)
+    tourd=pd.read_excel("dataset/final_states.xlsx",index_col=0)
     tourd=tourd.dropna()
     return tourd
 
